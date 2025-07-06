@@ -24,15 +24,15 @@ const ChatBot = () => {
 
       {/* Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 w-80 h-96 bg-card rounded-2xl border border-border shadow-elegant z-50 overflow-hidden">
-          <div className="bg-gradient-primary p-4 text-center">
-            <h3 className="text-foreground font-semibold">Consultas Studio Bless</h3>
-            <p className="text-sm text-foreground/80">¿En qué podemos ayudarte?</p>
+        <div className="fixed bottom-24 right-6 w-80 sm:w-96 h-[500px] sm:h-[600px] bg-card rounded-2xl border border-border shadow-elegant z-50 overflow-hidden">
+          <div className="bg-gradient-primary p-3 text-center">
+            <h3 className="text-foreground font-semibold text-sm">Consultas Studio Bless</h3>
+            <p className="text-xs text-foreground/80">¿En qué podemos ayudarte?</p>
           </div>
           <iframe 
             src="https://copilotstudio.microsoft.com/environments/Default-6ca34ae1-466f-44bc-a7aa-0ac5a78c61b1/bots/cr3a3_studioBless/webchat?__version__=2" 
             frameBorder="0" 
-            className="w-full h-full"
+            className="w-full h-[calc(100%-4rem)]"
             title="Studio Bless ChatBot"
           />
         </div>
