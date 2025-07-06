@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Studio Bless Custom Colors
+				'pink-soft': 'hsl(var(--pink-soft))',
+				'pink-medium': 'hsl(var(--pink-medium))',
+				'pink-deep': 'hsl(var(--pink-deep))',
+				'lavender-light': 'hsl(var(--lavender-light))',
+				'lavender-medium': 'hsl(var(--lavender-medium))',
+				'lavender-deep': 'hsl(var(--lavender-deep))'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)',
+				'elegant': 'var(--shadow-elegant)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'bounce': 'var(--transition-bounce)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
